@@ -12,7 +12,7 @@ export class PersonaService {
   selectedPersona: Persona;
   personas: Persona[];
 
-  readonly url='http://localhost:8080/app/persona';
+  readonly url='http://localhost:8090/app/persona';
   private httpHeaders = new HttpHeaders({'Content-Type': 'application/json'});
   
   constructor( private http: HttpClient ) {
